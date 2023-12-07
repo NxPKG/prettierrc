@@ -1,0 +1,26 @@
+{
+  "name": "@nxpkg/prettierrc",
+  "version": "3.0.3",
+  "license": "Apache-2.0",
+  "description": "Prettier config for TypeScript projects at NxPKG",
+  "main": "prettier.config.js",
+  "files": [
+    "prettier.config.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nxpkg/prettierrc"
+  },
+  "keywords": [
+    "prettier",
+    "config",
+    "formatting"
+  ],
+  "scripts": {
+    "prettier": "prettier .travis.yml README.md prettier.config.js --list-different --write",
+    "prettier-check": "yarn run prettier --write=false"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
