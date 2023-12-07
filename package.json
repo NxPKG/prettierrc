@@ -1,5 +1,5 @@
 {
-  "name": "@nxpkg/prettierrc",
+  "name": "@nx-pkg/prettierrc",
   "version": "3.0.3",
   "license": "Apache-2.0",
   "description": "Prettier config for TypeScript projects at NxPKG",
